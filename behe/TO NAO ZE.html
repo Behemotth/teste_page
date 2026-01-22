@@ -18,20 +18,17 @@
  <label for="nome">Nome:</label>
  <input type="text" minlength="3" name="nome"required /> <br>
  
- <label for="data de nascimento">DATA DE NASCIMENTO:</label>
- <input type="text" name="data_nascimento" required/> <br>
- 
  <label for="cpf">CPF:</label>
  <input type="cpf" minlength="11" name="cpf" required/> <br>
                                 
  <label for="email"> Email: </label>
- <input type="email" name="email" required />
+ <input type="email" name="email" required /> <br>
 
  <label for="tel"> Telefone de contato:</label>
  <input type="tel" name="telefone" required /> <br>
 
  <label for="nascimento"> Data de Nascimento:</label>
- <input type="data" name="nascimento" required /> <br>
+ <input type="date" name="nascimento" required /> <br>
 						
                                </fieldset>
  
@@ -52,16 +49,20 @@
  <input type="text" name="logradouro_endereco" /><br>
 
  <label for="numero_endereco">Numero:</label>
- <input type="numero_endereco" name="numero_endereco" /><br>
+ <input type="numero_endereco" name="numero_endereco" />
  
  <label for="complemento_endereco"> Complemento: </label>
  <input type="text" name="complemento_endereco" required /><br>
+ </fieldset>
 
+ <br>
+
+ <fieldset> 
  <label for="mensagem"> mensagem:</label>
  <textarea name="mensagem" cols="50" rows="5"> </textarea>
   <input type="submit" value="Enviar"/>
-
-                                </fieldset>
+</fieldset>
+                               
 								
  
  </body>
